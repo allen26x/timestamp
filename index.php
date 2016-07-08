@@ -1,8 +1,8 @@
 <?php  
     $unix = null;
     $nat = null;
-    if(isset($_GET["date"])) {
-        $date = $_GET["date"];
+    if(isset($_GET["d"])) {
+        $date = $_GET["d"];
         
         $pattern = '/^[0-9]{10}$/';
         
